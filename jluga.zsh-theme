@@ -6,7 +6,7 @@
 #
 
 
-PROMPT='%{$fg[cyan]%}┌[%D{%Y-%m-%d %H:%m:%S}]-%{$fg_bold[white]%}%n%{$reset_color%}%{$fg[cyan]%}⚡%{$fg[cyan]%}%{$fg_bold[green]%}%~%{$reset_color%}%{$fg[cyan]%}$(git_prompt_info)
+PROMPT='%{$fg[cyan]%}┌[%D{%Y-%m-%d %H:%M:%S}]-%{$fg_bold[white]%}%n%{$reset_color%}%{$fg[cyan]%}⚡%{$fg[cyan]%}%{$fg_bold[green]%}%~%{$reset_color%}%{$fg[cyan]%}$(git_prompt_info)
 └> % %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="➜(%{$reset_color%}%{$fg[blue]%}%{$fg_bold[red]%}"
